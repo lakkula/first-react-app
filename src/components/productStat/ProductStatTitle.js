@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function ProductStatTitle() {
   return (
-    <div>ProductStatTitle</div>
+    <p style={{fontWeight:'bold'}}>Products</p>
   )
 }

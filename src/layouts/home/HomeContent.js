@@ -16,7 +16,9 @@ export default function HomeContent() {
         <StatFiguresRow/>
         <div style={{display: 'flex'}}>
           <div>
-            <ProductStat/> 
+            <div style={{padding:'20px'}}>
+              <ProductStat/> 
+            </div>
             <div style={{padding:'20px'}}>
               <Transactions/> 
             </div>

@@ -3,7 +3,7 @@ import ProductStatCard from './productStat/ProductStatCard'
 
 export default function ProductStat() {
   return (
-    <div style={{backgroundColor: 'green'}}>
+    <div>
       <ProductStatCard/>
     </div>
   )

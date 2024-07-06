@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function StatValue() {
+export default function StatValue({value}) {
   return (
-    <div>StatValue</div>
+    <p style={{fontSize:'25px', fontWeight:'bold'}}>{value}</p>
   )
 }
