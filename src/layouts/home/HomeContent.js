@@ -17,7 +17,9 @@ export default function HomeContent() {
         <div style={{display: 'flex'}}>
           <div>
             <ProductStat/> 
-            <Transactions/> 
+            <div style={{padding:'20px'}}>
+              <Transactions/> 
+            </div>
           </div>
           <div>
             <AnalyticsGraph/>

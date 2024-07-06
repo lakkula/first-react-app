@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function TransactionsTitle() {
   return (
-    <div>TransactionsTitle</div>
+    <p style={{fontWeight:'bold'}}>Transactions</p>
   )
 }

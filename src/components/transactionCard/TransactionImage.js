@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function TransactionImage() {
+export default function TransactionImage({image}) {
   return (
-    <div>TransactionImage</div>
+      <img src={image} alt='' style={{width:'50px', borderRadius:'50%'}}/>
   )
 }
