@@ -10,7 +10,7 @@ import PromotionalCard from './homeContent/PromotionalCard'
 
 export default function HomeContent() {
   return (
-    <div>
+    <div style={{width: '100%'}}>
         <SearchBar/>
         <Breadcrumbs/>
         <StatFiguresRow/>

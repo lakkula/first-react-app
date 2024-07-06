@@ -4,11 +4,13 @@ import FigureMenuBtn from '../../../../components/statFigureWithMenu/FigureMenuB
 import FigureValue from '../../../../components/statFigureWithMenu/FigureValue'
 import FigureRate from '../../../../components/statFigureWithMenu/FigureRate'
 
-export default function StatFigureWithMenu() {
+export default function StatFigureWithMenu({title}) {
   return (
-    <div>
-      <FigureTitle/>
-      <FigureMenuBtn/>
+    <div style={{width:'100%'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+        <FigureTitle title={title}/>
+        <FigureMenuBtn/>
+      </div>
       <FigureValue/>
       <FigureRate/>
     </div>

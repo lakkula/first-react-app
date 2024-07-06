@@ -5,7 +5,7 @@ import FigureLink from '../../../../components/statFigureWithLink/FigureLink'
 
 export default function StatFigureWithLink() {
   return (
-    <div style={{backgroundColor: 'orange'}}>
+    <div>
       <FigureStatus/>
       <FigureDescription/>
       <FigureLink/>

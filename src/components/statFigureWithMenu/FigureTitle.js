@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function FigureTitle() {
+export default function FigureTitle({title}) {
   return (
-    <div>FigureTitle</div>
+    <div>
+      {title}
+    </div>
   )
 }
