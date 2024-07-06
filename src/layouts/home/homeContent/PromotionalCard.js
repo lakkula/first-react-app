@@ -6,11 +6,13 @@ import PromotionValue from '../../../components/promotionalCard/PromotionValue'
 
 export default function PromotionalCard() {
   return (
-    <div style={{backgroundColor: 'teal'}}>
+    <div style={{width:'280px'}}>
       <MultiColorTitle/>
       <Graph/>
-      <OrangeColorTest/>
-      <PromotionValue/>
+      <div style={{display:'flex', alignItems:'baseline', justifyContent:'space-between'}}>
+        <OrangeColorTest/>
+        <PromotionValue/>
+      </div>
     </div>
   )
 }
