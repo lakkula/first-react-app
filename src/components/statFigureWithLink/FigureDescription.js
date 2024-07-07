@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function FigureDescription() {
+export default function FigureDescription({mainTitle, value, subTitle}) {
   return (
-    <div>FigureDescription</div>
+    <div style={{fontWeight:'bold'}}>
+      <p>{mainTitle}</p>
+      <p><span style={{color:'tomato'}}>{value}%</span>{subTitle}</p>
+    </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function FigureValue() {
+export default function FigureValue({value}) {
   return (
-    <div>FigureValue</div>
+    <p style={{fontWeight:'bold', fontSize:'25px'}}>{value}</p>
   )
 }

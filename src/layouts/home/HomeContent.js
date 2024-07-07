@@ -13,7 +13,9 @@ export default function HomeContent() {
     <div style={{width: '100%'}}>
         <SearchBar/>
         <Breadcrumbs/>
-        <StatFiguresRow/>
+        <div style={{padding:'20px'}}>
+          <StatFiguresRow/>
+        </div>
         <div style={{display: 'flex'}}>
           <div>
             <div style={{padding:'20px'}}>
@@ -24,7 +26,9 @@ export default function HomeContent() {
             </div>
           </div>
           <div>
-            <AnalyticsGraph/>
+            <div style={{padding:'20px'}}>
+              <AnalyticsGraph/>
+            </div>
             <div style={{display: 'flex'}}>
               <OrdersGraph/>
               <PromotionalCard/>
