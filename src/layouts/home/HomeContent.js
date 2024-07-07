@@ -30,7 +30,9 @@ export default function HomeContent() {
               <AnalyticsGraph/>
             </div>
             <div style={{display: 'flex'}}>
-              <OrdersGraph/>
+              <div style={{padding:'20px'}}>
+                <OrdersGraph/>
+              </div>
               <PromotionalCard/>
             </div>
           </div>
