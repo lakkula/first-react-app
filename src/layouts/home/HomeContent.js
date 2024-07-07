@@ -29,7 +29,7 @@ export default function HomeContent() {
             <div style={{padding:'20px'}}>
               <AnalyticsGraph/>
             </div>
-            <div style={{display: 'flex'}}>
+            <div style={{display: 'flex', marginTop:'40px', alignItems:'baseline',gap:'40px'}}>
               <div style={{padding:'20px'}}>
                 <OrdersGraph/>
               </div>
