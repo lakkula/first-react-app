@@ -7,32 +7,35 @@ import AnalyticsGraph from './homeContent/AnalyticsGraph'
 import Transactions from './homeContent/Transactions'
 import OrdersGraph from './homeContent/OrdersGraph'
 import PromotionalCard from './homeContent/PromotionalCard'
+import SectionWrapper from '../common/SectionWrapper'
 
 export default function HomeContent() {
   return (
     <div style={{width: '100%'}}>
         <SearchBar/>
         <Breadcrumbs/>
-        <div style={{padding:'20px'}}>
+        <SectionWrapper>
           <StatFiguresRow/>
-        </div>
+        </SectionWrapper>
+          
         <div style={{display: 'flex'}}>
           <div>
-            <div style={{padding:'20px'}}>
-              <ProductStat/> 
-            </div>
-            <div style={{padding:'20px'}}>
-              <Transactions/> 
-            </div>
+          <SectionWrapper>
+            <ProductStat/> 
+          </SectionWrapper>
+              
+          <SectionWrapper>
+            <Transactions/> 
+          </SectionWrapper>
           </div>
           <div>
-            <div style={{padding:'20px'}}>
-              <AnalyticsGraph/>
-            </div>
+          <SectionWrapper>
+            <AnalyticsGraph/> 
+          </SectionWrapper>
             <div style={{display: 'flex', marginTop:'40px', alignItems:'baseline',gap:'40px'}}>
-              <div style={{padding:'20px'}}>
-                <OrdersGraph/>
-              </div>
+            <SectionWrapper>
+              <OrdersGraph/> 
+            </SectionWrapper>
               <PromotionalCard/>
             </div>
           </div>
