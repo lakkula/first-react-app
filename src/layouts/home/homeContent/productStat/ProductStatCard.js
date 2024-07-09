@@ -1,7 +1,7 @@
 import React from 'react'
-import ProductStatTitle from '../../../../components/productStat/ProductStatTitle'
 import ProductMenuBtn from '../../../../components/productStat/ProductMenuBtn'
 import SingleProductStat from './productStatCard/SingleProductStat'
+import SectionTitle from '../../../../components/common/SectionTitle';
 
 const statData = [
   {
@@ -26,10 +26,11 @@ export default function ProductStatCard() {
   return (
     <div>
       <div style={{display: 'flex', justifyContent: 'space-between'}}>
-        <ProductStatTitle/>
+ 
+        <SectionTitle title={'Products'}/>
         <ProductMenuBtn/>
       </div>
-      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between', marginTop:'15px'}}>
         {statData.map((val, key) => {
           const {title, value, rateInfo} = val;
           return <SingleProductStat key={key} title={title} value={value} rateInfo={rateInfo}/>

@@ -1,9 +1,9 @@
 import React from 'react'
-import TransactionsTitle from '../../../components/transactions/TransactionsTitle'
 import TransactionCard from './transactions/TransactionCard'
 import phoneIcon from '../../../assets/images/phone.jpg'
 import laptopIcon from '../../../assets/images/laptop.jpg'
 import productIcon from '../../../assets/images/box.png'
+import SectionTitle from '../../../components/common/SectionTitle'
 
 const transactionData = [
   {
@@ -60,7 +60,7 @@ const transactionData = [
 export default function Transactions() {
   return (
     <div style={{}}>
-      <TransactionsTitle/>
+      <SectionTitle title={'Transactions'}/>
       {transactionData.map((val, key) => {
         const {image, name, status, dateTime, id} = val;
         return (
