@@ -1,0 +1,8 @@
+.menuitem{
+    color: gray;
+}
+
+.menuitem:hover{
+    background-color: black;
+    color: white;
+}

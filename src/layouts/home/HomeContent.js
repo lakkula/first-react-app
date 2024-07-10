@@ -18,7 +18,7 @@ export default function HomeContent() {
           <StatFiguresRow/>
         </SectionWrapper>
           
-        <div style={{display: 'flex'}}>
+        <div style={{display: 'flex', justifyContent:'space-between'}}>
           <div>
           <SectionWrapper>
             <ProductStat/> 

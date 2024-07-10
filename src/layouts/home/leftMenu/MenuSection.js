@@ -8,7 +8,11 @@ export default function MenuSection({title, itemList}) {
         <MenuTitle title={title}/>
         {itemList.map((val, key) => {
           const {title} = val;
-          return <MenuItem key={key} title={title}/>
+          return (
+            <div key={key} style={{margin:'15px'}}>
+              <MenuItem title={title}/>
+            </div>
+          )
         })}
     </div>
   )

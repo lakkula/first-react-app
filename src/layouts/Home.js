@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div style={{display: 'flex', padding: '20px'}}>
     <LeftMenu/>
-    <HomeContent/>
+    <div>
+      <HomeContent/>
+    </div>
     </div>
   )
 }
